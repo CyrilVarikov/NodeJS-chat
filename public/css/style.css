@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+    color: rgb(58, 33, 87);
+    font-family: 'Consolas', monospace;
+}
+
+
+header > section{
+    display: flex;
+    width: 850px;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+header > section  h1{
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+header span{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.username{
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.button{
+    margin-left: 12px;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 1235px;
+    border: 1px solid black;
+    height: 300px;
+    margin: 20px 222px;
+    list-style: none;
+    background-color:  rgb(240, 240, 240);
+}
+
+.form-messages {
+    display: flex;
+}
+
+
+
+li{
+    font-size: 18px;
+}
+
+input, label {
+    display: block;
+}
+
+
+main > h2{
+    font-size: 25px;
+}
+
+.users > section{
+    display: flex;
+}
+
+
+.input {
+    outline: none;
+    border: 1px solid  rgb(47, 13, 87); 
+    background-color: rgb(224, 224, 224);
+    color: rgb(23, 44, 68);
+    padding: 1em .5em;
+    display: block;
+    font-size: 1.5em;
+    font-family: 'Consolas', monospace;
+    flex: 1;
+}
+
+label {
+    display: block;
+    padding: 1em .5em;
+    font-size: 1.5em;
+}
